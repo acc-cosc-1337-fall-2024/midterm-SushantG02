@@ -1,6 +1,6 @@
 #include "question3.h"
 
-bool test_config()
+double get_kinetic_energy(double mass, double velocity)
 {
-    return true;
+    return 0.5 * mass * velocity * velocity;
 }
